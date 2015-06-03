@@ -1,0 +1,279 @@
+/* CSS for CSUI Parking System */
+
+body{
+	text-align: center;
+	font-family: "Gotham-Book";
+}
+
+a.links{
+	text-decoration: none;
+	color: black;
+	font-family: "Gotham-Book";
+}
+
+a:hover{
+	text-decoration: none;
+	color: turquoise;
+}
+
+footer.below{
+	font-size: small;
+}
+
+#gridone{
+	text-align: right;
+}
+#gridtwo{
+	text-align: left;
+}
+
+#spots{
+	text-align: center;
+	height: 200px;
+}
+#carsicons{
+	text-align: center;
+	height: 200px;
+}
+#carz{
+	font-size: 50pt;
+	color: #336E7B;
+	text-align: center;
+}
+
+#avanumber{
+	color: #65C6BB;
+}
+
+/* responsive css */
+@media (min-width: 768px) and (max-width:1200px){
+	#gridone{
+		text-align: center;
+	}
+	#gridtwo{
+		text-align: center;
+	}
+	#spots{
+		text-align: center;	
+	}
+}
+
+@media (min-width: 320px){
+	#gridone{
+		text-align: center;
+	}
+	#gridtwo{
+		text-align: center;
+	}
+	#spots{
+		text-align: center;	
+	}
+}
+
+.col-xs-15,
+.col-sm-15,
+.col-md-15,
+.col-lg-15 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-15 {
+    width: 20%;
+    float: left;
+}
+@media (max-width: 768px) {
+	.col-sm-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-15 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-15 {
+        width: 20%;
+        float: left;
+    }
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+#nav{
+	text-align: center;
+}
+
+#logtitle{
+	color: #336E7B;
+}
+#registertitle{
+	color: #336E7B;
+}
+
+#hometext{
+	display: none;
+}
+#checkintext{
+	display: none;
+}
+#booktext{
+	display: none;
+}
+#directtext{
+	display: none;
+}
+#signouttext{
+	display: none;
+}
+
+#parkspottext{
+	display: none;	
+}
+
+#guestregisttext{
+	display: none;
+}
+
+#viewguesttext{
+	display: none;
+}
+
+#viewmembertext{
+	display: none;
+}
+
+#checkinmenu{
+	display: none;
+}
+
+#bookingmenu{
+	display: none;
+	text-align: center;
+}
+
+#specificspot{
+	display: none;
+	text-align: center;
+}
+
+#guestregistmenu{
+	display:none;
+}
+
+#viewguestmenu{
+	display: none;
+}
+
+#viewmembermenu{
+	display:none;
+}
+
+#getdirections{
+	display: none;
+}
+
+#Direction1{
+	color: #6C7A89;
+}
+
+#Direction2{
+	color: #2574A9;
+}
+
+#guestlogin{
+	display: none;
+}
+
+#map{
+	display: none;
+	text-align: center;
+}
+
+#mapmenu{
+	text-align: center;
+	border-style: solid;
+	border-color: #1BBC9B;
+	background-color: #1BBC9B;
+	border-width: 10;
+}
+
+table{
+	text-align:center;
+	align: center;
+	margin: auto;
+}
+
+
+td{
+	text-align: center;
+	border-style: solid;
+	border-color: #DADFE1;
+	background-color: #DADFE1;
+	width: 50px;
+	height: 100px;
+}
+
+.home:hover + #hometext{
+	display: block;
+}
+.checkin:hover + #checkintext{
+	display: block;
+}
+.booking:hover + #booktext{
+	display: block;
+}
+.directions:hover + #directtext{
+	display: block;
+}
+.signout:hover + #signouttext{
+	display: block;
+}
+
+.parkspot:hover + #parkspottext{
+	display: block;
+}
+.guestregist:hover + #guestregisttext{
+	display: block;
+}
+.viewguest:hover + #viewguesttext{
+	display: block;
+}
+.viewmember:hover + #viewmembertext{
+	display: block;
+}
+
+@font-face {
+    font-family: "Gotham-Book";
+    src: url("Gotham-Book.ttf");
+}
+
